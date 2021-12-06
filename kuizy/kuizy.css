@@ -1,0 +1,49 @@
+#main{
+  width: 600px;
+  margin: 0 auto;
+}
+
+li{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+
+
+h2::after{
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: green;
+  content: '';
+}
+
+ul li{
+  border: solid 2px rgba(0,0,0,0.05);
+  box-shadow: rgba(0,0,0,0.3) 1px;
+  font-size: 17px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+li:hover{
+  transform: scale(1.02);
+}
+
+.quiz-result-discription{
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.quiz-result-discription span{
+  border-bottom: solid 2px blue;
+}
+
+.error span{
+  border-bottom: solid 2px red;
+}
+
+.correct{
+  margin-bottom: 1px;
+}
